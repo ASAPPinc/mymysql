@@ -1,11 +1,12 @@
 package main
 
 import (
-	"os"
 	"fmt"
+	"os"
 	"time"
-	"github.com/ziutek/mymysql/autorc"
-	_ "github.com/ziutek/mymysql/thrsafe"
+
+	"github.com/asappinc/mymysql/autorc"
+	_ "github.com/asappinc/mymysql/thrsafe"
 )
 
 func main() {

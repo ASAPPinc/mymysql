@@ -1,8 +1,9 @@
 package native
 
 import (
-	"github.com/ziutek/mymysql/mysql"
 	"log"
+
+	"github.com/asappinc/mymysql/mysql"
 )
 
 func (my *Conn) init() {
